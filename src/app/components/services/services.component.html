@@ -1,0 +1,9 @@
+<section class="text-center px-20">
+    <p class="text-cyan-600 font-semibold pt-10">INSURANCE SERVICES</p>
+    <h1 class="text-4xl font-bold py-6">Take The Worry Out Of Life With Insurance Protection</h1>
+    <div class="flex w-full items-center justify-center flex-wrap">
+        <div *ngFor="let item of services">
+            <app-service-item [item]="item"></app-service-item>
+        </div>
+    </div>
+</section>
